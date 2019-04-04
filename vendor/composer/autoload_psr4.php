@@ -33,7 +33,7 @@ return array(
     'League\\OAuth2\\Server\\' => array($vendorDir . '/league/oauth2-server/src'),
     'League\\Event\\' => array($vendorDir . '/league/event/src'),
     'Lcobucci\\JWT\\' => array($vendorDir . '/lcobucci/jwt/src'),
-    'Laravel\\Passport\\' => array($vendorDir . '/laravel/passport/src'),
+    'Laravel\\Passport\\' => array($baseDir . '/app/Overrides', $vendorDir . '/laravel/passport/src'),
     'Laravel\\Lumen\\' => array($vendorDir . '/laravel/lumen-framework/src'),
     'Illuminate\\View\\' => array($vendorDir . '/illuminate/view'),
     'Illuminate\\Validation\\' => array($vendorDir . '/illuminate/validation'),

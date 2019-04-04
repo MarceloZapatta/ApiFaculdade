@@ -29,6 +29,7 @@ class ComposerStaticInit7843bbdd3199f201e1dd0a6efba1f611
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
         'bee9632da3ca00a99623b9c35d0c4f8b' => __DIR__ . '/..' . '/laravel/lumen-framework/src/helpers.php',
+        '4e2f0915380a312db926a97f92e6146b' => __DIR__ . '/../..' . '/app/Helpers/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -260,7 +261,8 @@ class ComposerStaticInit7843bbdd3199f201e1dd0a6efba1f611
         ),
         'Laravel\\Passport\\' => 
         array (
-            0 => __DIR__ . '/..' . '/laravel/passport/src',
+            0 => __DIR__ . '/../..' . '/app/Overrides',
+            1 => __DIR__ . '/..' . '/laravel/passport/src',
         ),
         'Laravel\\Lumen\\' => 
         array (
@@ -453,6 +455,7 @@ class ComposerStaticInit7843bbdd3199f201e1dd0a6efba1f611
         'App\\Events\\Event' => __DIR__ . '/../..' . '/app/Events/Event.php',
         'App\\Events\\ExampleEvent' => __DIR__ . '/../..' . '/app/Events/ExampleEvent.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Helpers\\LumenConfig' => __DIR__ . '/../..' . '/app/Helpers/LumenConfig.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\ExampleController' => __DIR__ . '/../..' . '/app/Http/Controllers/ExampleController.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
@@ -463,6 +466,7 @@ class ComposerStaticInit7843bbdd3199f201e1dd0a6efba1f611
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
+        'App\\Providers\\LumenConfigProvider' => __DIR__ . '/../..' . '/app/Providers/LumenConfigProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
@@ -1256,6 +1260,7 @@ class ComposerStaticInit7843bbdd3199f201e1dd0a6efba1f611
         'Illuminate\\Auth\\Events\\Lockout' => __DIR__ . '/..' . '/illuminate/auth/Events/Lockout.php',
         'Illuminate\\Auth\\Events\\Login' => __DIR__ . '/..' . '/illuminate/auth/Events/Login.php',
         'Illuminate\\Auth\\Events\\Logout' => __DIR__ . '/..' . '/illuminate/auth/Events/Logout.php',
+        'Illuminate\\Auth\\Events\\OtherDeviceLogout' => __DIR__ . '/..' . '/illuminate/auth/Events/OtherDeviceLogout.php',
         'Illuminate\\Auth\\Events\\PasswordReset' => __DIR__ . '/..' . '/illuminate/auth/Events/PasswordReset.php',
         'Illuminate\\Auth\\Events\\Registered' => __DIR__ . '/..' . '/illuminate/auth/Events/Registered.php',
         'Illuminate\\Auth\\Events\\Verified' => __DIR__ . '/..' . '/illuminate/auth/Events/Verified.php',
@@ -1900,7 +1905,7 @@ class ComposerStaticInit7843bbdd3199f201e1dd0a6efba1f611
         'Laravel\\Passport\\PersonalAccessClient' => __DIR__ . '/..' . '/laravel/passport/src/PersonalAccessClient.php',
         'Laravel\\Passport\\PersonalAccessTokenFactory' => __DIR__ . '/..' . '/laravel/passport/src/PersonalAccessTokenFactory.php',
         'Laravel\\Passport\\PersonalAccessTokenResult' => __DIR__ . '/..' . '/laravel/passport/src/PersonalAccessTokenResult.php',
-        'Laravel\\Passport\\RouteRegistrar' => __DIR__ . '/..' . '/laravel/passport/src/RouteRegistrar.php',
+        'Laravel\\Passport\\RouteRegistrar' => __DIR__ . '/../..' . '/app/Overrides/RouteRegistrar.php',
         'Laravel\\Passport\\Scope' => __DIR__ . '/..' . '/laravel/passport/src/Scope.php',
         'Laravel\\Passport\\Token' => __DIR__ . '/..' . '/laravel/passport/src/Token.php',
         'Laravel\\Passport\\TokenRepository' => __DIR__ . '/..' . '/laravel/passport/src/TokenRepository.php',
