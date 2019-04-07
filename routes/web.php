@@ -14,3 +14,8 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+// Teste de get dos users
+$router->get('/users', function () {
+	return 'teste';
+});
