@@ -23,6 +23,8 @@ return array(
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
     'App\\Providers\\LumenConfigProvider' => $baseDir . '/app/Providers/LumenConfigProvider.php',
     'App\\User' => $baseDir . '/app/User.php',
+    'Appzcoder\\LumenRoutesList\\RoutesCommand' => $vendorDir . '/appzcoder/lumen-routes-list/src/RoutesCommand.php',
+    'Appzcoder\\LumenRoutesList\\RoutesCommandServiceProvider' => $vendorDir . '/appzcoder/lumen-routes-list/src/RoutesCommandServiceProvider.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonImmutable' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
     'Carbon\\CarbonInterface' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterface.php',

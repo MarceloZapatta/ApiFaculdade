@@ -12,7 +12,22 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+
+	dd('aq');
+	$http = new GuzzleHttp\Client;
+
+	$response = $http->post('http://localhost:8000/oauth/token', [
+	    'form_params' => [
+	        'grant_type' => 'password',
+	        'client_id' => 'client-id',
+	        'client_secret' => 'client-secret',
+	        'username' => 'taylor@laravel.com',
+	        'password' => 'my-password',
+	        'scope' => '',
+	    ],
+	]);
+
+	return json_decode((string) $response->getBody(), true);
 });
 
 // Teste de get dos users

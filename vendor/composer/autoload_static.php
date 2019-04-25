@@ -143,6 +143,7 @@ class ComposerStaticInit7843bbdd3199f201e1dd0a6efba1f611
         ),
         'A' => 
         array (
+            'Appzcoder\\LumenRoutesList\\' => 26,
             'App\\' => 4,
         ),
     );
@@ -416,6 +417,10 @@ class ComposerStaticInit7843bbdd3199f201e1dd0a6efba1f611
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
+        'Appzcoder\\LumenRoutesList\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/appzcoder/lumen-routes-list/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -468,6 +473,8 @@ class ComposerStaticInit7843bbdd3199f201e1dd0a6efba1f611
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\LumenConfigProvider' => __DIR__ . '/../..' . '/app/Providers/LumenConfigProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'Appzcoder\\LumenRoutesList\\RoutesCommand' => __DIR__ . '/..' . '/appzcoder/lumen-routes-list/src/RoutesCommand.php',
+        'Appzcoder\\LumenRoutesList\\RoutesCommandServiceProvider' => __DIR__ . '/..' . '/appzcoder/lumen-routes-list/src/RoutesCommandServiceProvider.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
         'Carbon\\CarbonInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterface.php',
